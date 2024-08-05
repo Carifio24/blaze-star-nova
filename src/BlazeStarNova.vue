@@ -189,6 +189,7 @@ import { BackgroundImageset, skyBackgroundImagesets, supportsTouchscreen, blurAc
 // import { useDisplay } from "vuetify";
 
 import { createHorizon, createSky, removeHorizon, equatorialToHorizontal } from "./annotations";
+import { makeOverlayText } from "./text";
 import { EquatorialRad, HorizontalRad, LocationRad } from "./types";
 import { Annotation2 } from "./Annotation2";
 import { initializeConstellationNames, makeAltAzGridText, setupConstellationFigures } from "./wwt-hacks";
@@ -291,6 +292,8 @@ onMounted(() => {
       // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-ignore
       Annotation2.drawBatch(this.renderContext);
+
+      makeOverlayText(WWTControl.singleton.renderContext);
     }
     WWTControl.singleton.renderOneFrame = renderOneFrame.bind(WWTControl.singleton);
     WWTControl.singleton.renderOneFrame();
