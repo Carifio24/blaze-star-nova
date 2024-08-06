@@ -45,6 +45,13 @@
           <icon-button v-model="showVideoSheet" fa-icon="video" :color="buttonColor" tooltip-text="Watch video"
             tooltip-location="start">
           </icon-button>
+          <icon-button
+            @activate="() => playPauseTour()"
+            :fa-icon="isTourPlaying ? 'pause' : 'play'"
+            :color="buttonColor"
+            :tooltip-text="isTourPlaying ? 'Stop playing tour' : 'Play tour'"
+            tooltip-location="start">
+          </icon-button>
         </div>
         <div id="center-buttons">
         </div>
@@ -186,6 +193,7 @@
 </template>
 
 <script setup lang="ts">
+import { storeToRefs } from "pinia";
 import { ref, reactive, computed, onMounted, nextTick, watch } from "vue";
 import { Color, Grids, Place, Settings, WWTControl } from "@wwtelescope/engine";
 import { Classification, SolarSystemObjects } from "@wwtelescope/engine-types";
@@ -207,6 +215,8 @@ export interface MainComponentProps {
 }
 
 const store = engineStore();
+const { isTourPlaying } = storeToRefs(store);
+console.log(isTourPlaying);
 
 useWWTKeyboardControls(store);
 
@@ -234,6 +244,7 @@ const accentColor = ref("#ffffff");
 const buttonColor = ref("#ffffff");
 const tab = ref(0);
 const timePlaying = ref(false);
+const tourLoaded = ref(false);
 const showHorizon = ref(true);
 const showAltAzGrid = ref(true);
 const showControls = ref(false);
@@ -253,6 +264,8 @@ const crbPlace = new Place();
 crbPlace.set_RA(15 + 59 / 60 + 30.1622 / 3600);
 crbPlace.set_dec(25 + 55 / 60 + 12.613 / 3600);
 
+
+
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 const wwtSettings: Settings = Settings.get_active();
@@ -267,6 +280,8 @@ onMounted(() => {
   store.waitForReady().then(async () => {
     skyBackgroundImagesets.forEach(iset => backgroundImagesets.push(iset));
 
+    store.setBackgroundImageByName("USNOB: US Naval Observatory B 1.0 (Synthetic, Optical)");
+
     // If there are layers to set up, do that here!
     layersLoaded.value = true;
 
@@ -275,7 +290,7 @@ onMounted(() => {
     store.setClockSync(timePlaying.value);
     store.setClockRate(clockRate);
 
-    store.applySetting(["localHorizonMode", true]);
+    // store.applySetting(["localHorizonMode", true]);
     store.applySetting(["showAltAzGrid", showAltAzGrid.value]);
     store.applySetting(["showAltAzGridText", showAltAzGrid.value]);
     store.applySetting(["altAzGridColor", Color.fromArgb(180, 133, 201, 254)]);
@@ -309,6 +324,9 @@ onMounted(() => {
     WWTControl.singleton.renderOneFrame = renderOneFrame.bind(WWTControl.singleton);
     WWTControl.singleton.renderOneFrame();
     setupConstellationFigures();
+
+    console.log(`${window.location.origin}/Finding%20Corona%20Borealis.wtt`);
+
 
     setInterval(() => {
       if (timePlaying.value) {
@@ -455,6 +473,15 @@ function skyOpacityForSunAlt(sunAltRad: number) {
   return (1 + Math.atan(Math.PI * sunAltRad / (-astronomicalTwilight))) / 2;
 }
 
+function playPauseTour() {
+  console.log("playPauseTour");
+  if (!isTourPlaying.value) {
+    store.loadTour({ url: `${window.location.origin}/Finding%20Corona%20Borealis.wtt`, play: true })
+      .then(() => tourLoaded.value = true);
+  } else {
+    store.toggleTourPlayPauseState();
+  }
+}
 
 watch(showHorizon, (_show) => updateHorizonAndSky());
 
