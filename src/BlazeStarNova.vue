@@ -47,9 +47,9 @@
           </icon-button>
           <icon-button
             @activate="() => playPauseTour()"
-            :fa-icon="isTourPlaying ? 'pause' : 'play'"
+            :fa-icon="isTourPlaying ? 'stop' : 'play'"
             :color="buttonColor"
-            :tooltip-text="isTourPlaying ? 'Stop playing tour' : 'Play tour'"
+            :tooltip-text="isTourPlaying ? 'Stop tour' : 'Play tour'"
             tooltip-location="start">
           </icon-button>
         </div>
@@ -250,6 +250,12 @@ const showAltAzGrid = ref(true);
 const showControls = ref(false);
 const showConstellations = ref(true);
 const crbBelowHorizon = ref(true);
+
+let beforeTourLocation: EquatorialRad = { raRad: 0, decRad: 0 };
+let beforeTourHorizon = true;
+let beforeTourGrid = true;
+let beforeTourTime = new Date();
+let beforeTourConstellations = true;
 
 // For now, we're not allowing a user to change this
 const clockRate = 1000;
@@ -474,14 +480,35 @@ function skyOpacityForSunAlt(sunAltRad: number) {
 }
 
 function playPauseTour() {
-  console.log("playPauseTour");
   if (!isTourPlaying.value) {
+    beforeTourTime = store.currentTime;
+    beforeTourGrid = showAltAzGrid.value;
+    beforeTourHorizon = showHorizon.value;
+    beforeTourConstellations = showConstellations.value;
+    beforeTourLocation = { raRad: store.raRad, decRad: store.decRad };
+    console.log(beforeTourLocation);
     store.loadTour({ url: `${window.location.origin}/FindingCoronaBorealis.WTT`, play: true })
       .then(() => tourLoaded.value = true);
     showHorizon.value = false;
   } else {
     store.toggleTourPlayPauseState();
+    store.applySetting(["localHorizonMode", true]);
+    console.log(beforeTourLocation);
+    store.gotoRADecZoom({
+      ...beforeTourLocation,
+      zoomDeg: store.zoomDeg,
+      rollRad: 0,
+      instant: true
+    }).then(() => {
+      console.log(store.raRad, store.decRad);
+      showAltAzGrid.value = beforeTourGrid;
+      showConstellations.value = beforeTourConstellations;
+      showHorizon.value = beforeTourHorizon;
+      store.setTime(beforeTourTime);
+      updateHorizonAndSky();
+    });
   }
+  console.log(store);
 }
 
 watch(showHorizon, (_show) => updateHorizonAndSky());

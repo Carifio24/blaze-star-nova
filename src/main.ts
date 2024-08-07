@@ -14,8 +14,8 @@ import {
   faBookOpen,
   faChevronDown,
   faGear,
-  faPause,
   faPlay,
+  faStop,
   faTimes,
   faVideo,
 } from "@fortawesome/free-solid-svg-icons";
@@ -23,8 +23,8 @@ import {
 library.add(faBookOpen);
 library.add(faChevronDown);
 library.add(faGear);
-library.add(faPause);
 library.add(faPlay);
+library.add(faStop);
 library.add(faTimes);
 library.add(faVideo);
 
