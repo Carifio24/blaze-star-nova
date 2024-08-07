@@ -1,176 +1,0 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<FileCabinet HeaderSize="0x000001b7">
-  <Files>
-    <File Name="Tour.wwtxml" Size="31328" Offset="0" />
-    <File Name="efefb788-f81e-4f67-8741-f827414b88c5\74ab07c0-4da4-47c9-8ff1-b99a0e7f30fc.thumb.png" Size="1531" Offset="31328" />
-    <File Name="efefb788-f81e-4f67-8741-f827414b88c5\dd7ce940-e605-448f-8c06-4b59820c64e3.thumb.png" Size="2045" Offset="32859" />
-  </Files>
-</FileCabinet>
-<?xml version='1.0' encoding='UTF-8'?>
-<Tour ID="efefb788-f81e-4f67-8741-f827414b88c5" Title="Finding Corona Borealis" Descirption="" Description="" RunTime="31" Author="" AuthorEmail="" OrganizationUrl="" OrganizationName="None" Keywords="" UserLevel="Beginner" Classification="Unidentified" Taxonomy="" TimeLineTour="false">
-  <TourStops>
-    <TourStop Id="74ab07c0-4da4-47c9-8ff1-b99a0e7f30fc" Name="" Description="" Thumbnail="" Duration="0:0:3" Master="false" TransitionType="Slew" TransitionTime="2" TransitionOutTime="2" TransitionHoldTime="4" NextSlide="Next" InterpolationType="Linear" HasLocation="true" LocationAltitude="346.4" LocationLat="42.373746" LocationLng="-71.110554" HasTime="true" StartTime="8/6/2024 6:40:47 PM" EndTime="8/6/2024 6:40:47 PM" ActualPlanetScale="true" ShowClouds="false" EarthCutawayView="false" ShowConstellationBoundries="false" ShowConstellationFigures="true" ShowConstellationSelection="false" ShowEcliptic="false" EclipticColor="1:255:0:0:255" ShowElevationModel="true" ShowFieldOfView="false" ShowGrid="false" ShowHorizon="true" ShowHorizonPanorama="false" ShowMoonsAsPointSource="true" ShowSolarSystem="true" FovTelescope="0" FovEyepiece="0" FovCamera="0" LocalHorizonMode="true" GalacticMode="false" FadeInOverlays="false" SolarSystemStars="true" SolarSystemMilkyWay="true" SolarSystemCosmos="true" SolarSystemCMB="true" SolarSystemOrbits="true" SolarSystemMinorOrbits="false" SolarSystemOverlays="true" SolarSystemLighting="false" ShowISSModel="false" SolarSystemScale="1" MinorPlanetsFilter="255" PlanetOrbitsFilter="2147483647" SolarSystemMultiRes="true" SolarSystemMinorPlanets="false" SolarSystemPlanets="true" ShowEarthSky="true" ShowEquatorialGridText="false" EquatorialGridColor="1:255:255:255:255" ShowGalacticGrid="false" ShowGalacticGridText="false" GalacticGridColor="1:255:0:255:255" ShowEclipticGrid="false" ShowEclipticGridText="false" EclipticGridColor="1:255:0:255:0" ShowEclipticOverviewText="false" ShowAltAzGrid="false" ShowAltAzGridText="false" AltAzGridColor="1:255:255:0:255" ShowPrecessionChart="false" PrecessionChartColor="1:255:255:165:0" ConstellationPictures="false" ConstellationsEnabled="" ShowConstellationLabels="true" ShowSkyOverlays="true" ShowConstellations="true" ShowSkyNode="true" ShowSkyGrids="false" SkyOverlaysIn3d="true" ConstellationFiguresFilter="-1,-1,-1" ConstellationBoundariesFilter="-1,-1,-1" ConstellationNamesFilter="-1,-1,-1" ConstellationArtFilter="-1,-1,-1">
-      <Place Name="Current Screen" DataSetType="Sky" RA="12.144028041001633" Dec="55.76066358269417" Constellation="UMA" Classification="Unidentified" Magnitude="0" Distance="0" AngularSize="60" ZoomLevel="345.8145636" Rotation="-0.7140000000000022" Angle="-0.44899999999999995" Opacity="100" Target="Custom" ViewTarget="0, 0, 0" TargetReferenceFrame="">
-        <Description><![CDATA[]]>        </Description>
-        <BackgroundImageSet>
-          <ImageSet Generic="false" DataSetType="Sky" BandPass="Visible" Name="USNOB: US Naval Observatory B 1.0 (Synthetic, Optical)" Url="http://r{S:0}.ortho.tiles.virtualearth.net/tiles/wts0000001210{Q}?g=182" DemUrl="" BaseTileLevel="0" TileLevels="6" BaseDegreesPerTile="180" FileType=".png" BottomsUp="false" Projection="Toast" QuadTreeMap="0123" CenterX="0" CenterY="0" OffsetX="0" OffsetY="0" Rotation="0" Sparse="false" ElevationModel="false" StockSet="false" WidthFactor="2" MeanRadius="0" ReferenceFrame="">
-            <ThumbnailUrl>http://www.worldwidetelescope.org/wwtweb/thumbnail.aspx?name=usnob            </ThumbnailUrl>
-          </ImageSet>
-        </BackgroundImageSet>
-      </Place>
-      <EndTarget Name="End Place" DataSetType="Sky" RA="12.144028041001633" Dec="55.76066358269417" Constellation="UMA" Classification="Unidentified" Magnitude="0" Distance="0" AngularSize="60" ZoomLevel="345.8145636" Rotation="-0.7140000000000022" Angle="-0.44899999999999995" Opacity="100" Target="Custom" ViewTarget="0, 0, 0" TargetReferenceFrame="">
-        <Description><![CDATA[]]>        </Description>
-      </EndTarget>
-      <Overlays />
-    </TourStop>
-    <TourStop Id="51da36df-d148-4c8d-a8ea-be7e123d6fe6" Name="" Description="" Thumbnail="" Duration="0:0:3" Master="false" TransitionType="Slew" TransitionTime="2" TransitionOutTime="2" TransitionHoldTime="4" NextSlide="Next" InterpolationType="Linear" HasLocation="true" LocationAltitude="346.4" LocationLat="42.373746" LocationLng="-71.110554" HasTime="true" StartTime="8/6/2024 2:40:47 PM" EndTime="8/6/2024 2:40:47 PM" ActualPlanetScale="true" ShowClouds="false" EarthCutawayView="false" ShowConstellationBoundries="false" ShowConstellationFigures="true" ShowConstellationSelection="false" ShowEcliptic="false" EclipticColor="1:255:0:0:255" ShowElevationModel="true" ShowFieldOfView="false" ShowGrid="false" ShowHorizon="true" ShowHorizonPanorama="false" ShowMoonsAsPointSource="true" ShowSolarSystem="true" FovTelescope="0" FovEyepiece="0" FovCamera="0" LocalHorizonMode="true" GalacticMode="false" FadeInOverlays="false" SolarSystemStars="true" SolarSystemMilkyWay="true" SolarSystemCosmos="true" SolarSystemCMB="true" SolarSystemOrbits="true" SolarSystemMinorOrbits="false" SolarSystemOverlays="true" SolarSystemLighting="false" ShowISSModel="false" SolarSystemScale="1" MinorPlanetsFilter="255" PlanetOrbitsFilter="2147483647" SolarSystemMultiRes="true" SolarSystemMinorPlanets="false" SolarSystemPlanets="true" ShowEarthSky="true" ShowEquatorialGridText="false" EquatorialGridColor="1:255:255:255:255" ShowGalacticGrid="false" ShowGalacticGridText="false" GalacticGridColor="1:255:0:255:255" ShowEclipticGrid="false" ShowEclipticGridText="false" EclipticGridColor="1:255:0:255:0" ShowEclipticOverviewText="false" ShowAltAzGrid="false" ShowAltAzGridText="false" AltAzGridColor="1:255:255:0:255" ShowPrecessionChart="false" PrecessionChartColor="1:255:255:165:0" ConstellationPictures="false" ConstellationsEnabled="" ShowConstellationLabels="true" ShowSkyOverlays="true" ShowConstellations="true" ShowSkyNode="true" ShowSkyGrids="false" SkyOverlaysIn3d="true" ConstellationFiguresFilter="-1,-1,-1" ConstellationBoundariesFilter="-1,-1,-1" ConstellationNamesFilter="-1,-1,-1" ConstellationArtFilter="-1,-1,-1">
-      <Place Name="End Place" DataSetType="Sky" RA="12.144028041001633" Dec="55.76066358269417" Constellation="UMA" Classification="Unidentified" Magnitude="0" Distance="0" AngularSize="60" ZoomLevel="345.8145636" Rotation="-0.7140000000000022" Angle="-0.44899999999999995" Opacity="100" Target="Custom" ViewTarget="0, 0, 0" TargetReferenceFrame="">
-        <Description><![CDATA[    ]]>        </Description>
-        <BackgroundImageSet>
-          <ImageSet Generic="false" DataSetType="Sky" BandPass="Visible" Name="USNOB: US Naval Observatory B 1.0 (Synthetic, Optical)" Url="http://r{S:0}.ortho.tiles.virtualearth.net/tiles/wts0000001210{Q}?g=182" DemUrl="" BaseTileLevel="0" TileLevels="6" BaseDegreesPerTile="180" FileType=".png" BottomsUp="false" Projection="Toast" QuadTreeMap="0123" CenterX="0" CenterY="0" OffsetX="0" OffsetY="0" Rotation="0" Sparse="false" ElevationModel="false" StockSet="false" WidthFactor="2" MeanRadius="0" ReferenceFrame="">
-            <ThumbnailUrl>http://www.worldwidetelescope.org/wwtweb/thumbnail.aspx?name=usnob                    </ThumbnailUrl>
-          </ImageSet>
-        </BackgroundImageSet>
-      </Place>
-      <Overlays />
-    </TourStop>
-    <TourStop Id="c102e6be-002a-4608-9adf-317b2a9b2e07" Name="" Description="" Thumbnail="" Duration="0:0:6" Master="false" TransitionType="Slew" TransitionTime="2" TransitionOutTime="2" TransitionHoldTime="4" NextSlide="Next" InterpolationType="Linear" HasLocation="true" LocationAltitude="346.4" LocationLat="42.373746" LocationLng="-71.110554" HasTime="true" StartTime="8/6/2024 6:40:47 PM" EndTime="8/6/2024 6:40:47 PM" ActualPlanetScale="true" ShowClouds="false" EarthCutawayView="false" ShowConstellationBoundries="false" ShowConstellationFigures="true" ShowConstellationSelection="false" ShowEcliptic="false" EclipticColor="1:255:0:0:255" ShowElevationModel="true" ShowFieldOfView="false" ShowGrid="false" ShowHorizon="true" ShowHorizonPanorama="false" ShowMoonsAsPointSource="true" ShowSolarSystem="true" FovTelescope="0" FovEyepiece="0" FovCamera="0" LocalHorizonMode="true" GalacticMode="false" FadeInOverlays="false" SolarSystemStars="true" SolarSystemMilkyWay="true" SolarSystemCosmos="true" SolarSystemCMB="true" SolarSystemOrbits="true" SolarSystemMinorOrbits="false" SolarSystemOverlays="true" SolarSystemLighting="false" ShowISSModel="false" SolarSystemScale="1" MinorPlanetsFilter="255" PlanetOrbitsFilter="2147483647" SolarSystemMultiRes="true" SolarSystemMinorPlanets="false" SolarSystemPlanets="true" ShowEarthSky="true" ShowEquatorialGridText="false" EquatorialGridColor="1:255:255:255:255" ShowGalacticGrid="false" ShowGalacticGridText="false" GalacticGridColor="1:255:0:255:255" ShowEclipticGrid="false" ShowEclipticGridText="false" EclipticGridColor="1:255:0:255:0" ShowEclipticOverviewText="false" ShowAltAzGrid="false" ShowAltAzGridText="false" AltAzGridColor="1:255:255:0:255" ShowPrecessionChart="false" PrecessionChartColor="1:255:255:165:0" ConstellationPictures="false" ConstellationsEnabled="" ShowConstellationLabels="true" ShowSkyOverlays="true" ShowConstellations="true" ShowSkyNode="true" ShowSkyGrids="false" SkyOverlaysIn3d="true" ConstellationFiguresFilter="-1,-1,-1" ConstellationBoundariesFilter="-1,-1,-1" ConstellationNamesFilter="-1,-1,-1" ConstellationArtFilter="-1,-1,-1">
-      <Place Name="Current Screen" DataSetType="Sky" RA="12.144028041001633" Dec="55.76066358269417" Constellation="UMA" Classification="Unidentified" Magnitude="0" Distance="0" AngularSize="60" ZoomLevel="345.8145636" Rotation="-0.7140000000000022" Angle="-0.44899999999999995" Opacity="100" Target="Custom" ViewTarget="0, 0, 0" TargetReferenceFrame="">
-        <Description><![CDATA[    ]]>        </Description>
-        <BackgroundImageSet>
-          <ImageSet Generic="false" DataSetType="Sky" BandPass="Visible" Name="USNOB: US Naval Observatory B 1.0 (Synthetic, Optical)" Url="http://r{S:0}.ortho.tiles.virtualearth.net/tiles/wts0000001210{Q}?g=182" DemUrl="" BaseTileLevel="0" TileLevels="6" BaseDegreesPerTile="180" FileType=".png" BottomsUp="false" Projection="Toast" QuadTreeMap="0123" CenterX="0" CenterY="0" OffsetX="0" OffsetY="0" Rotation="0" Sparse="false" ElevationModel="false" StockSet="false" WidthFactor="2" MeanRadius="0" ReferenceFrame="">
-            <ThumbnailUrl>http://www.worldwidetelescope.org/wwtweb/thumbnail.aspx?name=usnob            </ThumbnailUrl>
-          </ImageSet>
-        </BackgroundImageSet>
-      </Place>
-      <EndTarget Name="End Place" DataSetType="Sky" RA="12.144027733756666" Dec="55.76066625626167" Constellation="UMA" Classification="Unidentified" Magnitude="0" Distance="0" AngularSize="60" ZoomLevel="345.81456359999993" Rotation="-0.7140000000000022" Angle="-0.44899999999999995" Opacity="100" Target="Custom" ViewTarget="0, 0, 0" TargetReferenceFrame="">
-        <Description><![CDATA[]]>        </Description>
-      </EndTarget>
-      <Overlays>
-        <Overlay Id="11232" Type="TerraViewer.ShapeOverlay" Name="" X="940.3825539223072" Y="510.0295805882022" Width="639.3608698489058" Height="379.21494662345907" Rotation="23.57024793388439" Color="1:184:255:0:255" Url="" LinkID="" Animate="false" Anchor="Screen">
-          <Shape ShapeType="Donut" />
-        </Overlay>
-        <Overlay Id="11235" Type="TerraViewer.TextOverlay" Name="" X="804.2314049586777" Y="246.44628099173565" Width="290.3685888671875" Height="40.8" Rotation="0" Color="1:255:255:255:255" Url="" LinkID="" Animate="false" Anchor="Screen">
-          <Text>
-            <TextObject Bold="false" Italic="false" Underline="false" FontSize="24" FontName="Tahoma" ForgroundColor="1:255:255:0:255" BackgroundColor="1:0:255:255:255" BorderStyle="None">Start at the Big Dipperï»¿            </TextObject>
-          </Text>
-        </Overlay>
-      </Overlays>
-    </TourStop>
-    <TourStop Id="16128b31-1a46-4543-8b93-8819e5a5043b" Name="" Description="" Thumbnail="" Duration="0:0:5" Master="false" TransitionType="Slew" TransitionTime="2" TransitionOutTime="2" TransitionHoldTime="4" NextSlide="Next" InterpolationType="Linear" HasLocation="true" LocationAltitude="346.4" LocationLat="42.373746" LocationLng="-71.110554" HasTime="true" StartTime="8/6/2024 6:40:47 PM" EndTime="8/6/2024 10:40:47 AM" ActualPlanetScale="true" ShowClouds="false" EarthCutawayView="false" ShowConstellationBoundries="false" ShowConstellationFigures="true" ShowConstellationSelection="false" ShowEcliptic="false" EclipticColor="1:255:0:0:255" ShowElevationModel="true" ShowFieldOfView="false" ShowGrid="false" ShowHorizon="true" ShowHorizonPanorama="false" ShowMoonsAsPointSource="true" ShowSolarSystem="true" FovTelescope="0" FovEyepiece="0" FovCamera="0" LocalHorizonMode="true" GalacticMode="false" FadeInOverlays="false" SolarSystemStars="true" SolarSystemMilkyWay="true" SolarSystemCosmos="true" SolarSystemCMB="true" SolarSystemOrbits="true" SolarSystemMinorOrbits="false" SolarSystemOverlays="true" SolarSystemLighting="false" ShowISSModel="false" SolarSystemScale="1" MinorPlanetsFilter="255" PlanetOrbitsFilter="2147483647" SolarSystemMultiRes="true" SolarSystemMinorPlanets="false" SolarSystemPlanets="true" ShowEarthSky="true" ShowEquatorialGridText="false" EquatorialGridColor="1:255:255:255:255" ShowGalacticGrid="false" ShowGalacticGridText="false" GalacticGridColor="1:255:0:255:255" ShowEclipticGrid="false" ShowEclipticGridText="false" EclipticGridColor="1:255:0:255:0" ShowEclipticOverviewText="false" ShowAltAzGrid="false" ShowAltAzGridText="false" AltAzGridColor="1:255:255:0:255" ShowPrecessionChart="false" PrecessionChartColor="1:255:255:165:0" ConstellationPictures="false" ConstellationsEnabled="" ShowConstellationLabels="true" ShowSkyOverlays="true" ShowConstellations="true" ShowSkyNode="true" ShowSkyGrids="false" SkyOverlaysIn3d="true" ConstellationFiguresFilter="-1,-1,-1" ConstellationBoundariesFilter="-1,-1,-1" ConstellationNamesFilter="-1,-1,-1" ConstellationArtFilter="-1,-1,-1">
-      <Place Name="Current Screen" DataSetType="Sky" RA="12.144027733756666" Dec="55.76066625626167" Constellation="UMA" Classification="Unidentified" Magnitude="0" Distance="0" AngularSize="60" ZoomLevel="345.81456359999993" Rotation="-0.7140000000000022" Angle="-0.44899999999999995" Opacity="100" Target="Custom" ViewTarget="0, 0, 0" TargetReferenceFrame="">
-        <Description><![CDATA[        ]]>        </Description>
-        <BackgroundImageSet>
-          <ImageSet Generic="false" DataSetType="Sky" BandPass="Visible" Name="USNOB: US Naval Observatory B 1.0 (Synthetic, Optical)" Url="http://r{S:0}.ortho.tiles.virtualearth.net/tiles/wts0000001210{Q}?g=182" DemUrl="" BaseTileLevel="0" TileLevels="6" BaseDegreesPerTile="180" FileType=".png" BottomsUp="false" Projection="Toast" QuadTreeMap="0123" CenterX="0" CenterY="0" OffsetX="0" OffsetY="0" Rotation="0" Sparse="false" ElevationModel="false" StockSet="false" WidthFactor="2" MeanRadius="0" ReferenceFrame="">
-            <ThumbnailUrl>http://www.worldwidetelescope.org/wwtweb/thumbnail.aspx?name=usnob            </ThumbnailUrl>
-          </ImageSet>
-        </BackgroundImageSet>
-      </Place>
-      <Overlays>
-        <Overlay Id="11235" Type="TerraViewer.TextOverlay" Name="" X="804.2314049586777" Y="246.44628099173565" Width="430.1253662109375" Height="40.8" Rotation="0" Color="1:255:255:255:255" Url="" LinkID="" Animate="false" Anchor="Screen">
-          <Text>
-            <TextObject Bold="false" Italic="false" Underline="false" FontSize="24" FontName="Tahoma" ForgroundColor="1:255:255:0:255" BackgroundColor="1:0:255:255:255" BorderStyle="None">Follow the arc of the pot handle..            </TextObject>
-          </Text>
-        </Overlay>
-        <Overlay Id="11238" Type="TerraViewer.ShapeOverlay" Name="" X="944.3576467809257" Y="428.15064438520824" Width="157.653355336294" Height="14.873539065333489" Rotation="-125.02479338843" Color="1:255:255:102:255" Url="" LinkID="" Animate="false" Anchor="Screen">
-          <Shape ShapeType="Arrow" />
-        </Overlay>
-        <Overlay Id="11238" Type="TerraViewer.ShapeOverlay" Name="" X="814.043232918359" Y="340.2068196683491" Width="148.96513022485897" Height="16.26377388026981" Rotation="-161.91735537190095" Color="1:255:255:102:255" Url="" LinkID="" Animate="false" Anchor="Screen">
-          <Shape ShapeType="Arrow" />
-        </Overlay>
-      </Overlays>
-    </TourStop>
-    <TourStop Id="82639f3b-cc9e-42d3-baa7-cce26713909d" Name="" Description="" Thumbnail="" Duration="0:0:4" Master="false" TransitionType="Slew" TransitionTime="2" TransitionOutTime="2" TransitionHoldTime="4" NextSlide="Next" InterpolationType="Linear" HasLocation="true" LocationAltitude="346.4" LocationLat="42.373746" LocationLng="-71.110554" HasTime="true" StartTime="8/6/2024 6:40:47 PM" EndTime="8/6/2024 6:40:47 PM" ActualPlanetScale="true" ShowClouds="false" EarthCutawayView="false" ShowConstellationBoundries="false" ShowConstellationFigures="true" ShowConstellationSelection="false" ShowEcliptic="false" EclipticColor="1:255:0:0:255" ShowElevationModel="true" ShowFieldOfView="false" ShowGrid="false" ShowHorizon="true" ShowHorizonPanorama="false" ShowMoonsAsPointSource="true" ShowSolarSystem="true" FovTelescope="0" FovEyepiece="0" FovCamera="0" LocalHorizonMode="true" GalacticMode="false" FadeInOverlays="false" SolarSystemStars="true" SolarSystemMilkyWay="true" SolarSystemCosmos="true" SolarSystemCMB="true" SolarSystemOrbits="true" SolarSystemMinorOrbits="false" SolarSystemOverlays="true" SolarSystemLighting="false" ShowISSModel="false" SolarSystemScale="1" MinorPlanetsFilter="255" PlanetOrbitsFilter="2147483647" SolarSystemMultiRes="true" SolarSystemMinorPlanets="false" SolarSystemPlanets="true" ShowEarthSky="true" ShowEquatorialGridText="false" EquatorialGridColor="1:255:255:255:255" ShowGalacticGrid="false" ShowGalacticGridText="false" GalacticGridColor="1:255:0:255:255" ShowEclipticGrid="false" ShowEclipticGridText="false" EclipticGridColor="1:255:0:255:0" ShowEclipticOverviewText="false" ShowAltAzGrid="false" ShowAltAzGridText="false" AltAzGridColor="1:255:255:0:255" ShowPrecessionChart="false" PrecessionChartColor="1:255:255:165:0" ConstellationPictures="false" ConstellationsEnabled="" ShowConstellationLabels="true" ShowSkyOverlays="true" ShowConstellations="true" ShowSkyNode="true" ShowSkyGrids="false" SkyOverlaysIn3d="true" ConstellationFiguresFilter="-1,-1,-1" ConstellationBoundariesFilter="-1,-1,-1" ConstellationNamesFilter="-1,-1,-1" ConstellationArtFilter="-1,-1,-1">
-      <Place Name="Current Screen" DataSetType="Sky" RA="12.144027733756666" Dec="55.76066625626167" Constellation="UMA" Classification="Unidentified" Magnitude="0" Distance="0" AngularSize="60" ZoomLevel="345.81456359999993" Rotation="-0.7140000000000022" Angle="-0.44899999999999995" Opacity="100" Target="Custom" ViewTarget="0, 0, 0" TargetReferenceFrame="">
-        <Description><![CDATA[            ]]>        </Description>
-        <BackgroundImageSet>
-          <ImageSet Generic="false" DataSetType="Sky" BandPass="Visible" Name="USNOB: US Naval Observatory B 1.0 (Synthetic, Optical)" Url="http://r{S:0}.ortho.tiles.virtualearth.net/tiles/wts0000001210{Q}?g=182" DemUrl="" BaseTileLevel="0" TileLevels="6" BaseDegreesPerTile="180" FileType=".png" BottomsUp="false" Projection="Toast" QuadTreeMap="0123" CenterX="0" CenterY="0" OffsetX="0" OffsetY="0" Rotation="0" Sparse="false" ElevationModel="false" StockSet="false" WidthFactor="2" MeanRadius="0" ReferenceFrame="">
-            <ThumbnailUrl>http://www.worldwidetelescope.org/wwtweb/thumbnail.aspx?name=usnob            </ThumbnailUrl>
-          </ImageSet>
-        </BackgroundImageSet>
-      </Place>
-      <EndTarget Name="End Place" DataSetType="Sky" RA="13.411745639420431" Dec="42.14699354842508" Constellation="CVN" Classification="Unidentified" Magnitude="0" Distance="0" AngularSize="60" ZoomLevel="359.99999999999994" Rotation="-1.2320000000000024" Angle="-0.43399999999999994" Opacity="100" Target="Custom" ViewTarget="0, 0, 0" TargetReferenceFrame="">
-        <Description><![CDATA[]]>        </Description>
-      </EndTarget>
-      <Overlays />
-    </TourStop>
-    <TourStop Id="dd7ce940-e605-448f-8c06-4b59820c64e3" Name="" Description="" Thumbnail="" Duration="0:0:5" Master="false" TransitionType="Slew" TransitionTime="2" TransitionOutTime="2" TransitionHoldTime="4" NextSlide="Next" InterpolationType="Linear" HasLocation="true" LocationAltitude="346.4" LocationLat="42.373746" LocationLng="-71.110554" HasTime="true" StartTime="8/6/2024 6:40:47 PM" EndTime="8/6/2024 6:40:47 PM" ActualPlanetScale="true" ShowClouds="false" EarthCutawayView="false" ShowConstellationBoundries="false" ShowConstellationFigures="true" ShowConstellationSelection="false" ShowEcliptic="false" EclipticColor="1:255:0:0:255" ShowElevationModel="true" ShowFieldOfView="false" ShowGrid="false" ShowHorizon="true" ShowHorizonPanorama="false" ShowMoonsAsPointSource="true" ShowSolarSystem="true" FovTelescope="0" FovEyepiece="0" FovCamera="0" LocalHorizonMode="true" GalacticMode="false" FadeInOverlays="false" SolarSystemStars="true" SolarSystemMilkyWay="true" SolarSystemCosmos="true" SolarSystemCMB="true" SolarSystemOrbits="true" SolarSystemMinorOrbits="false" SolarSystemOverlays="true" SolarSystemLighting="false" ShowISSModel="false" SolarSystemScale="1" MinorPlanetsFilter="255" PlanetOrbitsFilter="2147483647" SolarSystemMultiRes="true" SolarSystemMinorPlanets="false" SolarSystemPlanets="true" ShowEarthSky="true" ShowEquatorialGridText="false" EquatorialGridColor="1:255:255:255:255" ShowGalacticGrid="false" ShowGalacticGridText="false" GalacticGridColor="1:255:0:255:255" ShowEclipticGrid="false" ShowEclipticGridText="false" EclipticGridColor="1:255:0:255:0" ShowEclipticOverviewText="false" ShowAltAzGrid="false" ShowAltAzGridText="false" AltAzGridColor="1:255:255:0:255" ShowPrecessionChart="false" PrecessionChartColor="1:255:255:165:0" ConstellationPictures="false" ConstellationsEnabled="" ShowConstellationLabels="true" ShowSkyOverlays="true" ShowConstellations="true" ShowSkyNode="true" ShowSkyGrids="false" SkyOverlaysIn3d="true" ConstellationFiguresFilter="-1,-1,-1" ConstellationBoundariesFilter="-1,-1,-1" ConstellationNamesFilter="-1,-1,-1" ConstellationArtFilter="-1,-1,-1">
-      <Place Name="Current Screen" DataSetType="Sky" RA="13.411745304421245" Dec="42.14699513804927" Constellation="CVN" Classification="Unidentified" Magnitude="0" Distance="0" AngularSize="60" ZoomLevel="359.9999999999999" Rotation="-1.2320000000000024" Angle="-0.43399999999999994" Opacity="100" Target="Custom" ViewTarget="0, 0, 0" TargetReferenceFrame="">
-        <Description><![CDATA[]]>        </Description>
-        <BackgroundImageSet>
-          <ImageSet Generic="false" DataSetType="Sky" BandPass="Visible" Name="USNOB: US Naval Observatory B 1.0 (Synthetic, Optical)" Url="http://r{S:0}.ortho.tiles.virtualearth.net/tiles/wts0000001210{Q}?g=182" DemUrl="" BaseTileLevel="0" TileLevels="6" BaseDegreesPerTile="180" FileType=".png" BottomsUp="false" Projection="Toast" QuadTreeMap="0123" CenterX="0" CenterY="0" OffsetX="0" OffsetY="0" Rotation="0" Sparse="false" ElevationModel="false" StockSet="false" WidthFactor="2" MeanRadius="0" ReferenceFrame="">
-            <ThumbnailUrl>http://www.worldwidetelescope.org/wwtweb/thumbnail.aspx?name=usnob            </ThumbnailUrl>
-          </ImageSet>
-        </BackgroundImageSet>
-      </Place>
-      <Overlays>
-        <Overlay Id="11238" Type="TerraViewer.ShapeOverlay" Name="" X="933.9315030822117" Y="375.8849113919754" Width="120.22865914028353" Height="16.26377388026981" Rotation="-224.42975206611573" Color="1:255:255:102:255" Url="" LinkID="" Animate="false" Anchor="Screen">
-          <Shape ShapeType="Arrow" />
-        </Overlay>
-        <Overlay Id="11238" Type="TerraViewer.ShapeOverlay" Name="" X="1077.94405936464" Y="315.1159105774401" Width="157.653355336294" Height="14.873539065333489" Rotation="-189.5867768595043" Color="1:255:255:102:255" Url="" LinkID="" Animate="false" Anchor="Screen">
-          <Shape ShapeType="Arrow" />
-        </Overlay>
-        <Overlay Id="11238" Type="TerraViewer.ShapeOverlay" Name="" X="782.1257951432392" Y="667.9492000864622" Width="514.1420787616386" Height="16.26377388026981" Rotation="-245.95041322314057" Color="1:255:255:102:255" Url="" LinkID="" Animate="false" Anchor="Screen">
-          <Shape ShapeType="Arrow" />
-        </Overlay>
-        <Overlay Id="11246" Type="TerraViewer.TextOverlay" Name="" X="844.7107438016528" Y="909.4876033057849" Width="234.0482666015625" Height="81.6" Rotation="0" Color="1:255:255:255:255" Url="" LinkID="" Animate="false" Anchor="Screen">
-          <Text>
-            <TextObject Bold="false" Italic="false" Underline="false" FontSize="24" FontName="Tahoma" ForgroundColor="1:255:255:0:255" BackgroundColor="1:0:255:255:255" BorderStyle="None">To this very bright
-star, Arcturusï»¿            </TextObject>
-          </Text>
-        </Overlay>
-      </Overlays>
-    </TourStop>
-    <TourStop Id="cc172c7b-b535-4763-a5aa-ee86bf4663b9" Name="" Description="" Thumbnail="" Duration="0:0:5" Master="false" TransitionType="Slew" TransitionTime="2" TransitionOutTime="2" TransitionHoldTime="4" NextSlide="Next" InterpolationType="Linear" HasLocation="true" LocationAltitude="346.4" LocationLat="42.373746" LocationLng="-71.110554" HasTime="true" StartTime="8/6/2024 2:40:47 PM" EndTime="8/6/2024 2:40:47 PM" ActualPlanetScale="true" ShowClouds="false" EarthCutawayView="false" ShowConstellationBoundries="false" ShowConstellationFigures="true" ShowConstellationSelection="false" ShowEcliptic="false" EclipticColor="1:255:0:0:255" ShowElevationModel="true" ShowFieldOfView="false" ShowGrid="false" ShowHorizon="true" ShowHorizonPanorama="false" ShowMoonsAsPointSource="true" ShowSolarSystem="true" FovTelescope="0" FovEyepiece="0" FovCamera="0" LocalHorizonMode="true" GalacticMode="false" FadeInOverlays="false" SolarSystemStars="true" SolarSystemMilkyWay="true" SolarSystemCosmos="true" SolarSystemCMB="true" SolarSystemOrbits="true" SolarSystemMinorOrbits="false" SolarSystemOverlays="true" SolarSystemLighting="false" ShowISSModel="false" SolarSystemScale="1" MinorPlanetsFilter="255" PlanetOrbitsFilter="2147483647" SolarSystemMultiRes="true" SolarSystemMinorPlanets="false" SolarSystemPlanets="true" ShowEarthSky="true" ShowEquatorialGridText="false" EquatorialGridColor="1:255:255:255:255" ShowGalacticGrid="false" ShowGalacticGridText="false" GalacticGridColor="1:255:0:255:255" ShowEclipticGrid="false" ShowEclipticGridText="false" EclipticGridColor="1:255:0:255:0" ShowEclipticOverviewText="false" ShowAltAzGrid="false" ShowAltAzGridText="false" AltAzGridColor="1:255:255:0:255" ShowPrecessionChart="false" PrecessionChartColor="1:255:255:165:0" ConstellationPictures="false" ConstellationsEnabled="" ShowConstellationLabels="true" ShowSkyOverlays="true" ShowConstellations="true" ShowSkyNode="true" ShowSkyGrids="false" SkyOverlaysIn3d="true" ConstellationFiguresFilter="-1,-1,-1" ConstellationBoundariesFilter="-1,-1,-1" ConstellationNamesFilter="-1,-1,-1" ConstellationArtFilter="-1,-1,-1">
-      <Place Name="Current Screen" DataSetType="Sky" RA="13.411745304421245" Dec="42.14699513804927" Constellation="CVN" Classification="Unidentified" Magnitude="0" Distance="0" AngularSize="60" ZoomLevel="359.9999999999999" Rotation="-1.2320000000000024" Angle="-0.43399999999999994" Opacity="100" Target="Custom" ViewTarget="0, 0, 0" TargetReferenceFrame="">
-        <Description><![CDATA[    ]]>        </Description>
-        <BackgroundImageSet>
-          <ImageSet Generic="false" DataSetType="Sky" BandPass="Visible" Name="USNOB: US Naval Observatory B 1.0 (Synthetic, Optical)" Url="http://r{S:0}.ortho.tiles.virtualearth.net/tiles/wts0000001210{Q}?g=182" DemUrl="" BaseTileLevel="0" TileLevels="6" BaseDegreesPerTile="180" FileType=".png" BottomsUp="false" Projection="Toast" QuadTreeMap="0123" CenterX="0" CenterY="0" OffsetX="0" OffsetY="0" Rotation="0" Sparse="false" ElevationModel="false" StockSet="false" WidthFactor="2" MeanRadius="0" ReferenceFrame="">
-            <ThumbnailUrl>http://www.worldwidetelescope.org/wwtweb/thumbnail.aspx?name=usnob                    </ThumbnailUrl>
-          </ImageSet>
-        </BackgroundImageSet>
-      </Place>
-      <Overlays>
-        <Overlay Id="11238" Type="TerraViewer.ShapeOverlay" Name="" X="933.9315030822117" Y="375.8849113919754" Width="120.22865914028353" Height="16.26377388026981" Rotation="-224.42975206611573" Color="1:255:255:102:255" Url="" LinkID="" Animate="false" Anchor="Screen">
-          <Shape ShapeType="Arrow" />
-        </Overlay>
-        <Overlay Id="11238" Type="TerraViewer.ShapeOverlay" Name="" X="1077.94405936464" Y="315.1159105774401" Width="157.653355336294" Height="14.873539065333489" Rotation="-189.5867768595043" Color="1:255:255:102:255" Url="" LinkID="" Animate="false" Anchor="Screen">
-          <Shape ShapeType="Arrow" />
-        </Overlay>
-        <Overlay Id="11238" Type="TerraViewer.ShapeOverlay" Name="" X="782.1257951432392" Y="667.9492000864622" Width="514.1420787616386" Height="16.26377388026981" Rotation="-245.95041322314057" Color="1:255:255:102:255" Url="" LinkID="" Animate="false" Anchor="Screen">
-          <Shape ShapeType="Arrow" />
-        </Overlay>
-        <Overlay Id="11246" Type="TerraViewer.TextOverlay" Name="" X="844.7107438016528" Y="909.4876033057849" Width="234.0482666015625" Height="81.6" Rotation="0" Color="1:255:255:255:255" Url="" LinkID="" Animate="false" Anchor="Screen">
-          <Text>
-            <TextObject Bold="false" Italic="false" Underline="false" FontSize="24" FontName="Tahoma" ForgroundColor="1:255:255:0:255" BackgroundColor="1:0:255:255:255" BorderStyle="None">To this very bright
-star, Arcturusï»¿                    </TextObject>
-          </Text>
-        </Overlay>
-      </Overlays>
-    </TourStop>
-  </TourStops>
-  <ReferenceFrames>
-    <ReferenceFrame Name="ISS" Parent="Earth" ReferenceFrameType="Orbital" Reference="Custom" ParentsRoationalBase="false" MeanRadius="130" Oblateness="0" Heading="0" Pitch="0" Roll="0" Scale="1" Tilt="0" Translation="0, 0, 0" RotationalPeriod="0" ZeroRotationDate="0" RepresentativeColor="1:255:255:255:255" ShowAsPoint="false" ShowOrbitPath="true" StationKeeping="true" SemiMajorAxis="6795796.5835865075" SemiMajorAxisScale="Meters" Eccentricity="0.0006169" Inclination="51.6401" ArgumentOfPeriapsis="166.0815" LongitudeOfAscendingNode="67.9362" MeanAnomolyAtEpoch="288.9946" MeanDailyMotion="5578.8502824" Epoch="2460311.8323628735" />
-    <ReferenceFrame Name="Observing Location" Parent="Earth" ReferenceFrameType="FixedSherical" Reference="Custom" ParentsRoationalBase="false" MeanRadius="6371000" Oblateness="0.0033528" Heading="0" Pitch="0" Roll="0" Scale="1" Tilt="0" Translation="0, 0, 0" Lat="42.373746" Lng="-71.110554" Altitude="346.4" RotationalPeriod="0" ZeroRotationDate="0" RepresentativeColor="1:255:255:255:255" ShowAsPoint="false" ShowOrbitPath="false" StationKeeping="true" />
-  </ReferenceFrames>
-  <Layers />
-</Tour>
-ÿØÿà JFIF      ÿâØICC_PROFILE   È    0  mntrRGB XYZ à        acsp                             öÖ     Ó-                                                   	desc   ğ   $rXYZ     gXYZ  (   bXYZ  <   wtpt  P   rTRC  d   (gTRC  d   (bTRC  d   (cprt  Œ   <mluc          enUS       s R G BXYZ       o¢  8õ  XYZ       b™  ·…  ÚXYZ       $   „  ¶ÏXYZ       öÖ     Ó-para        ff  ò§  Y  Ğ  
-[        mluc          enUS        G o o g l e   I n c .   2 0 1 6ÿÛ C 	
-
-			
-
-		
-ÿÛ C	ÿÀ  - `" ÿÄ               	ÿÄ ,        !1AQ"aq¡ğ2Á‘±ÑÿÄ                 ÿÄ                 ÿÚ   ? òå~Q8±’vê#ŠF€Â6 âH¡‰-¨'“³ZÉLÕ/\u¶î2(¹³²"O´¨ ±‡ğ"EQz^±ºK½u®ÿ ém:Y¹t+jî‘Ià-Ü wÅ£ƒù3DDOµ:İê¦=:ß‘qƒ`œK¬€c‰Ú`ÇÍ£F9q°1CÕN– OšŞ•b6ÏíW»ğş»¦ø}ˆ¿MptUÛ–m_+
-÷-„. ÷rÙ#¶B‚Z&Nä >ÔÄz†çúúTÑ‰|VZvAª“.º;Ğc‹B²Ç¹$ÿ ³b) €­©8˜ L}ér0Tœ¾¼P^zvY\‰nDğg[üïYmå8¾:9x´Ò®X$ïšªÜ(q8‚	àĞq€aW´M	Œq¿ùDzÀô“ O>ôrALGçäĞb¾|±ƒª0ÚåÏĞQl o”
-ğh5·†V±é‰Şè	%¿t³vƒ÷¦Rm¸ÍÔ"{óReŞàÇd0à–ñ4Ç;×#tÈ3hvÄØy¡ûÁÿ UA>a'Ó@×E´¸ÂÓ—U0IâHÿ Ğ 6ÄÄÏéº‚÷®7Q‚ZŒÀR;A3ïYCbèÄAŠ  Câ˜¶çÆÌn‘ñÌ~‘Ş*ÌòÕŠ\õ,+v 4æáGfZ&u2)˜e¹{ÔÁ0#@ÖRLL˜3@Kƒdå£>ÔÇ ÂŠ­ş”Úºë˜8ÛW çŞ§h+f¢FFæ”8ñ£Ş°ÀíŠ•ŸâÂ@‘<pjdú@’z	0`GÖ½êùu–ì‹Fãü‡"à¶•'`8–Â¾Ä©’cšUœ2@B‚÷7pb
-à  ™E@	ÈìGoh¤Ü‡âv`w¡Í©î¦%A	¹ ï‘­qõûSÄ®A}<@oÏ4¸Î˜p	â)‹2A ªöÈ ÿÙÿØÿà JFIF      ÿâØICC_PROFILE   È    0  mntrRGB XYZ à        acsp                             öÖ     Ó-                                                   	desc   ğ   $rXYZ     gXYZ  (   bXYZ  <   wtpt  P   rTRC  d   (gTRC  d   (bTRC  d   (cprt  Œ   <mluc          enUS       s R G BXYZ       o¢  8õ  XYZ       b™  ·…  ÚXYZ       $   „  ¶ÏXYZ       öÖ     Ó-para        ff  ò§  Y  Ğ  
-[        mluc          enUS        G o o g l e   I n c .   2 0 1 6ÿÛ C 	
-
-			
-
-		
-ÿÛ C	ÿÀ  - `" ÿÄ             	ÿÄ 1       !1Aaq"Q‘2¡Áá#Bğb±ÑÿÄ              ÿÄ             !1"ağÿÚ   ? üÃÎÅ£–º±C¬ğÀÚu;49ÛÜrcÀûèZ@Lc‘I»_Öõ—È~M•ï|ÿ ®šUíXqdÀyÙç9I2†]‹áˆÊ÷İº÷n®6ÕyùjN¶­XìÎÿ ßôh.‹X³Úù­	$ 	û¤ÈDº¯r	<sÛCñ‰<P½‘"–Il·ù\3-ä]K«Ğ3öûóë¨‚pQ„™…° ü&õ–v• ß[­Ë"Ø©C¡÷ƒ¯C3!.ŞıîµbşuçÁ:4ÒQkº[ÓrrdàcÃ!ê1.;™1£‘À#¯†Î	‰‹"‚èU¶–[ÚÌ­¹í?0×í®®oáş¡‰Ñ"ë2fôÖÇ–UqÓ¨ÂÙHÍâlpæEÙk%@£¿Î—ÏÍ)a%¦¸TÊíŒ	;•I`8æ—›ãÌËt¥µ¨I`dÕ]Í{ê§N‘ÆaÈÉi
-ÊÑ¨PŞuMÛ×SÇ‘,N^JR…€î¤QõÒüù¦ßÏSV1šÚL²)Ò´šh¿¨ÄÉ!#Ä[‚A±1÷×w£ôÅ9Qt^¥‰Ò$ÇÁQcu\ÕDÉu¯(¦`¨[R7*ò´i'ÏÄqÄr™ø´<5@(YçwŸmŒìCÁ7J+I›¾”õ“Õz;¬}W§dâ;*²¬ñfªÊVû©VVX!ìF£PH`wpGËŸûòÓ[3&|(ğŸ!Ú\¼qvAˆù]öÕÑ§EÉÂr³rq³dÉ$‚ ñ¦UÌûÃÀ pF‚\³”À•RÛAìw>úÀ§¶Û$š¾çDÌFÂã¸×¡ÈÈÄ™21¥’)b`ÑÈŒC#Áré ]XpÈAª4(­Ü?Z×}¿ş%“>“š™IhêùXĞÏ'Œ;Ü¥Ê“ÉBÛ	²T’N¸"Ø€O v#QÌ|mÉjH*¢›½Ùû‘ôöÓæ==â¼hrD‚¬É"‘uÏGŸ®¥VÁæÎ0$eˆ¸PH ·aëí¡«:GÈã|ÜàÔ•"‚EÒü6W” ƒcÌ\ú{éQ²«×pA×G¡å~Æên¿Ór³1£II‹q•öÿ l Òîä.ÌÎ©Å†¸]+±qŒH«½²¹Ø5‹£B€ªÏ:L5D·İ›rÿ şß=„Ë¸4^ÿ O-<À‡fæˆ E y>}ı4ˆÂ´ª5ØèNÆQqtÿ ^›QŞÅR |Çs¢—°M·Xóòï\ß¦ƒh-dê®™4XYğuŸŸSø¹&AÀÊæ7G£ÿ ×S(Ò{Â0à#¯ÂA®à_ß¸úicâ5¸Y"½›,`©íğ°OçJÜI2v6L¯¡¬Q‰o:ª‚C5şèYYi¹*ÄÓùûêœàŸSà¢ÆQâ;Ã—ŞÔ
-ÛîXĞ°¤™Í…"ôø"xK–BòîªÜŠµÆÕ^æïŠµT¥RÍ@…$_>ƒ÷Ñ;
-ÕvŠPÖ‡:%*Íùh‚Ä•ó¤d`h­ËcÔ_ÛX¶¬¨‚ËíåÎl©äÃ<¯$x©áB¬Ü"g*>Cs±÷'XÈ<2õÿ Î¢?ÿÙ

@@ -290,7 +290,7 @@ onMounted(() => {
     store.setClockSync(timePlaying.value);
     store.setClockRate(clockRate);
 
-    // store.applySetting(["localHorizonMode", true]);
+    store.applySetting(["localHorizonMode", true]);
     store.applySetting(["showAltAzGrid", showAltAzGrid.value]);
     store.applySetting(["showAltAzGridText", showAltAzGrid.value]);
     store.applySetting(["altAzGridColor", Color.fromArgb(180, 133, 201, 254)]);
@@ -325,7 +325,7 @@ onMounted(() => {
     WWTControl.singleton.renderOneFrame();
     setupConstellationFigures();
 
-    console.log(`${window.location.origin}/Finding%20Corona%20Borealis.wtt`);
+    console.log(`${window.location.origin}/FindingCoronaBorealis.wtt`);
 
 
     setInterval(() => {
@@ -476,8 +476,9 @@ function skyOpacityForSunAlt(sunAltRad: number) {
 function playPauseTour() {
   console.log("playPauseTour");
   if (!isTourPlaying.value) {
-    store.loadTour({ url: `${window.location.origin}/Finding%20Corona%20Borealis.wtt`, play: true })
+    store.loadTour({ url: `${window.location.origin}/FindingCoronaBorealis.WTT`, play: true })
       .then(() => tourLoaded.value = true);
+    showHorizon.value = false;
   } else {
     store.toggleTourPlayPauseState();
   }
