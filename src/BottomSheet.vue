@@ -22,7 +22,7 @@
             </p>
             <h4>How do I see this nova?</h4>
             <p>
-              The star that will become a nova is named "T Coronae Borealis." It is often referred to as "T CrB" for short and is also nicknamed, the "Blaze Star." As the name suggests, it is located within the constellation Corona Borealis, the "Northern Crown." This guide(TODO: link to the tour) explains how you can find Corona Borealis in your night sky.
+            The star that will become a nova is named "T Coronae Borealis." It is often referred to as "T CrB" for short and is also nicknamed, the "Blaze Star." As the name suggests, it is located within the constellation Corona Borealis, the "Northern Crown." <a :href="tourLink">This guide</a> explains how you can find Corona Borealis in your night sky.
             </p>
             <p>
               On a clear night, go out and look for Corona Borealis, so you can get used to its U-shape in the sky. Once T CrB goes nova, which can be any day now, or possibly weeks or months from now, it will seem as if a new star appeared just to the lower left of the U shape of the constellation.
@@ -121,8 +121,7 @@
 
 
 <script setup lang="ts">
-import { defineProps, defineEmits, withDefaults, defineModel, watch } from 'vue';
-import { ref } from 'vue';
+import { defineProps, defineEmits, withDefaults, defineModel, watch, ref } from 'vue';
 
 export interface Props {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -146,6 +145,8 @@ const { cssVars, accentColor, touchscreen } = props;
 const tab = ref(0);
 
 const showTextSheet = defineModel({default: true});
+
+const tourLink = ref(`${window.location.origin}/FindingCoronaBorealis.WTT`);
 
 watch(() => showTextSheet, (newVal) => {
   if (!newVal) {
