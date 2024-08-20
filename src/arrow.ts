@@ -5,7 +5,7 @@
 
 
 import { D2R } from "@cosmicds/vue-toolkit";
-import { Coordinates, Poly, Vector2d, WWTControl } from "@wwtelescope/engine";
+import { Coordinates, Matrix3d, Poly, Vector2d, WWTControl } from "@wwtelescope/engine";
 import { engineStore } from "@wwtelescope/engine-pinia";
 
 type Point = [number, number];
@@ -59,7 +59,9 @@ export function createArrow(store: EngineStore, options: ArrowOptions): [Poly] {
   const arrows: Poly[] = [];
   const pointRA = options.pointsTo[0];
   const centerDec = options.pointsTo[1];
+  console.log(pointRA, centerDec);
   const xy = getScreenPosForCoordinates(WWTControl.singleton, pointRA * D2H, centerDec);
+  console.log(xy);
   const outerCoordinates: Point[] = [];
   const headBackRA = pointRA + options.headWidth;
   const stemBackRA = headBackRA + options.stemWidth;
@@ -77,17 +79,16 @@ export function createArrow(store: EngineStore, options: ArrowOptions): [Poly] {
   outerCoordinates.push([headBackRA, bottomDec]);   
 
   const outerArrow = new Poly(); 
-  for (const coords of outerArrowCoordinates) {
+  for (const coords of outerCoordinates) {
    const point = getScreenPosForCoordinates(WWTControl.singleton, coords[0] * D2H, coords[1]);
    const rotatedPoint = rotatePoint([point.x, point.y], xy, options.angleDeg);
-   const rotatedCoords = findRADecForScreenPoint({x: rotatedPoint[0], y: rotatedPoint[1]});
+   const rotatedCoords = store.findRADecForScreenPoint({x: rotatedPoint[0], y: rotatedPoint[1]});
    outerArrow.addPoint(rotatedCoords.ra, rotatedCoords.dec);
   }
 
-  const color = options.color ?? "#ffffff";
-  outerArrow.set_lineColor(color);
+  outerArrow.set_lineColor(options.color);
   outerArrow.set_fill(true);
-  outerArrow.set_fillColor(color);
+  outerArrow.set_fillColor(options.color);
   arrows.push(outerArrow);
   
   if (options.inner) {

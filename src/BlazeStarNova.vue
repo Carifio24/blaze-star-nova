@@ -260,6 +260,7 @@ import { useDisplay} from 'vuetify';
 
 import {throttle} from './debounce';
 
+import { createArrow } from "./arrow";
 import { equatorialToHorizontal } from "./utils";
 import { EquatorialRad, LocationRad } from "./types";
 import { resetAltAzGridText, makeAltAzGridText, setupConstellationFigures, renderOneFrame } from "./wwt-hacks";
@@ -457,6 +458,19 @@ onMounted(() => {
     // @ts-ignore
     WWTControl.singleton.renderOneFrame = newFrameRender;
     setupConstellationFigures();
+
+    const arrow = createArrow(store, {
+      pointsTo: [crbPlace.get_RA() * 15, crbPlace.get_dec()],
+      angleDeg: -60,
+      halfHeight: 0.02,
+      stemFraction: 0.4,
+      headWidth: 0.05,
+      stemWidth: 0.05,
+      color: "#ffffff",
+      innerThickness: 0.002,
+    });
+    arrow.forEach(ann => store.addAnnotation(ann));
+    console.log(arrow);
 
     setInterval(() => {
       if (timePlaying.value) {
