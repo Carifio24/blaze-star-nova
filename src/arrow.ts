@@ -81,7 +81,7 @@ export function createArrow(store: EngineStore, options: ArrowOptions): [Poly] {
   const outerArrow = new Poly(); 
   for (const coords of outerCoordinates) {
    const point = getScreenPosForCoordinates(WWTControl.singleton, coords[0] * D2H, coords[1]);
-   const rotatedPoint = rotatePoint([point.x, point.y], xy, options.angleDeg);
+   const rotatedPoint = rotatePoint([point.x, point.y], [xy.x, xy.y], options.angleDeg);
    const rotatedCoords = store.findRADecForScreenPoint({x: rotatedPoint[0], y: rotatedPoint[1]});
    outerArrow.addPoint(rotatedCoords.ra, rotatedCoords.dec);
   }
@@ -113,7 +113,7 @@ export function createArrow(store: EngineStore, options: ArrowOptions): [Poly] {
     const innerArrow = new Poly();
     for (const coords of innerCoordinates) {
       const point = getScreenPosForCoordinates(WWTControl.singleton, coords[0] * D2H, coords[1]);
-      const rotatedPoint = rotatePoint([point.x, point.y], xy, options.angleDeg);
+      const rotatedPoint = rotatePoint([point.x, point.y], [xy.x, xy.y], options.angleDeg);
       const rotatedCoords = store.findRADecForScreenPoint({x: rotatedPoint[0], y: rotatedPoint[1]});
       innerArrow.addPoint(rotatedCoords.ra, rotatedCoords.dec);
     }
