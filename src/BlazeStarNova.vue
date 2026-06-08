@@ -591,7 +591,7 @@ onMounted(() => {
     }, 50);
   }).then(()=>{updateCrbBelowHorizon(store.currentTime);});
 
-  ratingDisplaySetup();
+  // ratingDisplaySetup();
 });
 
 const ready = computed(() => layersLoaded.value && positionSet.value);
@@ -785,7 +785,7 @@ function toggleAlpha() {
   });
 }
 
-async function ratingDisplaySetup() {
+async function _ratingDisplaySetup() {
   if (ratingOptedOut) {
     console.log("opted out of ratings");
     return;
